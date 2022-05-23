@@ -2,13 +2,18 @@
 
 /**** Navigation Bar ****/
 
+.nav-wrapper{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 nav a.nav-link{
-    font-weight: 200;
-    font-size: 200;
-    letter-spacing: 0.03rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
     cursor: pointer;
     color: black;
-    width: 6.04rem;
+    width: 7.6rem;
     padding-left: 0rem;
     font-family: 'courier prime';
 }
@@ -20,4 +25,50 @@ nav a.nav-link:hover {
 
 nav a.nav-link:visited{
     color: black;
+}
+
+/**** Header ****/
+
+#prof-pic{
+    margin-top: 6.3rem;
+    margin-left: 5vw;
+    margin-bottom: 0vh;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 0.1rem dotted black;
+    z-index: 0;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#tsparticles{ 
+    width: 100%;
+    height: 9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    /*box-shadow: 0 0.1rem 0.5rem 1rem black;*/
+}
+
+
+/**** About Me ****/
+.aboutme-wrapper{
+    position: absolute;
+    margin-right: 10vw;
+    margin-left: 18vw;
+}
+
+#aboutme-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vmax;
+    font-style: italic;
+}
+
+#aboutme-text{
+    color: gray;
+    font-size: 1vmax;
 }
