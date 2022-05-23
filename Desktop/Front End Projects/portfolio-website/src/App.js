@@ -1,5 +1,6 @@
 import React from 'react';
-import Navigation from './Navigation.js';
+import Navigation from './components/Navigation.js';
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
